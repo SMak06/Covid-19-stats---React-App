@@ -1,3 +1,5 @@
+/* Created by Sahil Makwane, 3 APRIL 2020 */
+
 import React, { useEffect, useState } from 'react';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck';
@@ -119,7 +121,8 @@ var queries = [{
           />
         </Form.Group>
       </Form>
-      <Columns style={{boxShadow: "1px 1px 17px 1px rgba(0, 0, 0,.2)"}} queries={queries}>{countries}</Columns>    
+      <Columns style={{boxShadow: "1px 1px 17px 1px rgba(0, 0, 0,.2)"}} queries={queries}>{countries}</Columns>  
+      <h6 className="text-center">Created by Sahil Makwane, 3 APRIL 2020</h6>  
     </div>
   );
 }
